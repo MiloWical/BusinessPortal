@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:14420/",
+      "applicationUrl": "http://localhost:58002/",
       "sslPort": 0
     }
   },
@@ -18,7 +18,7 @@
     "RedisInterface": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "http://localhost:58002",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
