@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "exports": {
+    "RedisProvider/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/RedisProvider.dll": {}
+      },
+      "runtime": {
+        "../packages/StackExchange.Redis.StrongName.1.1.608/lib/net45/StackExchange.Redis.StrongName.dll": {},
+        "DLLs/Admiral.Services.PartnerData.Contract.20131029.dll": {},
+        "DLLs/Admiral.Services.PartnerData.Contract.dll": {},
+        "DLLs/CompareNow.Components.Constants.US.dll": {},
+        "DLLs/CompareNow.Services.PartnerData.Contract.dll": {},
+        "bin/Debug/RedisProvider.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/RedisProvider.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

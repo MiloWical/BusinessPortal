@@ -1775,6 +1775,9 @@
         "runtime": {
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "RedisProvider/1.0.0": {
+        "type": "project"
       }
     }
   },
@@ -4691,6 +4694,10 @@
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml"
       ]
+    },
+    "RedisProvider/1.0.0": {
+      "type": "project",
+      "msbuildProject": "../RedisProvider/RedisProvider.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4712,7 +4719,9 @@
       "Microsoft.ServiceFabric.Services >= 2.2.207",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0"
     ],
-    ".NETFramework,Version=v4.5.2": []
+    ".NETFramework,Version=v4.5.2": [
+      "RedisProvider"
+    ]
   },
   "tools": {
     ".NETCoreApp,Version=v1.0": {

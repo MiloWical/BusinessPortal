@@ -17,6 +17,7 @@
     ".NETFramework,Version=v4.5.2": {
       "RedisInterface/1.0.0": {
         "dependencies": {
+          "RedisProvider": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
           "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -994,6 +995,11 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "RedisProvider/1.0.0": {
+        "compile": {
+          "bin/Debug/RedisProvider.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.5.2/mscorlib.dll": {}
@@ -1073,6 +1079,7 @@
     ".NETFramework,Version=v4.5.2/": {
       "RedisInterface/1.0.0": {
         "dependencies": {
+          "RedisProvider": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.1",
           "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -1974,6 +1981,16 @@
           "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "RedisProvider/1.0.0": {
+        "runtime": {
+          "../packages/StackExchange.Redis.StrongName.1.1.608/lib/net45/StackExchange.Redis.StrongName.dll": {},
+          "DLLs/Admiral.Services.PartnerData.Contract.20131029.dll": {},
+          "DLLs/Admiral.Services.PartnerData.Contract.dll": {},
+          "DLLs/CompareNow.Components.Constants.US.dll": {},
+          "DLLs/CompareNow.Services.PartnerData.Contract.dll": {},
+          "bin/Debug/RedisProvider.dll": {}
+        }
+      },
       "mscorlib/4.0.0.0": {},
       "System/4.0.0.0": {},
       "System.Core/4.0.0.0": {},
@@ -2536,6 +2553,11 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pH4FZDsZQ/WmgJtN4LWYmRdJAEeVkyriSwrv2Teoe5FOU0Yxlb6II6GL8dBPOfRmutHGATduj3ooMt7dJ2+i+w=="
+    },
+    "RedisProvider/1.0.0": {
+      "type": "msbuildproject",
+      "serviceable": false,
+      "sha512": ""
     },
     "mscorlib/4.0.0.0": {
       "type": "referenceassembly",

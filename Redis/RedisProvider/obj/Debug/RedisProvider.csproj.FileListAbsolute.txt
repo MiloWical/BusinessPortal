@@ -1,0 +1,11 @@
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\RedisProvider.dll
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\RedisProvider.pdb
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\StackExchange.Redis.StrongName.dll
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\StackExchange.Redis.StrongName.xml
+C:\src\BusinessPortal\Redis\RedisProvider\obj\Debug\RedisProvider.dll
+C:\src\BusinessPortal\Redis\RedisProvider\obj\Debug\RedisProvider.pdb
+C:\src\BusinessPortal\Redis\RedisProvider\obj\Debug\RedisProvider.csprojResolveAssemblyReference.cache
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\Admiral.Services.PartnerData.Contract.20131029.dll
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\Admiral.Services.PartnerData.Contract.dll
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\CompareNow.Components.Constants.US.dll
+C:\src\BusinessPortal\Redis\RedisProvider\bin\Debug\CompareNow.Services.PartnerData.Contract.dll

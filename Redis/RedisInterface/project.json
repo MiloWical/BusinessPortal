@@ -27,7 +27,13 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net452": {
+      "dependencies": {
+        "RedisProvider": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "buildOptions": {
