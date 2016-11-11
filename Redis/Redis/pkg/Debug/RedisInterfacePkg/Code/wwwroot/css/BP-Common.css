@@ -1,0 +1,13 @@
+﻿body { font-size: 100%; }     
+
+table {font-family: Verdana, Geneva, sans-serif; border: 1px solid black; font-size: 0.875em; width:100%}
+
+th {background-color: #4CAF50; color: white; text-align: left; padding: 4px;}
+
+tr:nth-child(even) {background-color: #e6e6e6;}
+tr:nth-child(odd) {background-color: #e6ffe6;}
+tr:hover {background-color: white; color: green; }
+
+td {text-align: left; padding: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 0;}
+
+h1 {font-family: Verdana, Geneva, sans-serif; font-size: 0.875em; color: #4caf50; background-color: white; text-align: left; padding: 4px; border-bottom-color: #4caf50;}

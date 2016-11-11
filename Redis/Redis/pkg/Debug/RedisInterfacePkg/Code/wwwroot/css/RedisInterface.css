@@ -1,0 +1,24 @@
+#spacer {
+    
+    height: 3px;}
+
+#closeButton {position: sticky; float: right; top: 10px; right: 10px; border: 1px solid #e6ffe6; font-weight: bold; color: #e6ffe6; background-color: #4CAF50; z-index: 1;}
+
+#keyContainer {width: 100%; border:1px solid black;}
+
+#valuePane {
+    width: 99%;
+    border: 1px solid black;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 60%;
+}
+
+#keyValueHeaderContainer {
+    width: 100%;
+    border-bottom-color: #4caf50;
+    border-bottom: 1px solid;
+}

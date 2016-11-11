@@ -31,7 +31,14 @@ namespace RedisInterface.Controllers
         // GET: /<controller>/
         public IEnumerable<string> GetKeys()
         {
-            return _cacheProvider.GetKeys();
+            //return _cacheProvider.GetKeys();
+
+            return new List<string>()
+            {
+                "PDS::GetProductBrands::101::Admiral.Services.PartnerData.Contract, Version=7.0.0.0, Culture=neutral, PublicKeyToken=8fd4efed560dfb20",
+                "PDS::GetBrandBusinessStates::CompareNow.Services.PartnerData.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8fd4efed560dfb20",
+                "Test"
+            };
         }
 
         public string GetCacheKeyValue(string key)

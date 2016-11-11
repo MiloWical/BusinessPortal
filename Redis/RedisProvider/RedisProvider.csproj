@@ -75,7 +75,7 @@
     <Compile Include="Providers\ICacheProvider.cs" />
     <Compile Include="Providers\RedisConnection.cs" />
     <Compile Include="Providers\RedisExtensions.cs" />
-    <Compile Include="Providers\RedisProvider.cs" />
+    <Compile Include="Providers\RedisCacheProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

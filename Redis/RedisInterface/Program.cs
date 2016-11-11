@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
+using System;
 using System.Collections.Generic;
 using System.Fabric;
 using System.IO;
@@ -61,12 +62,16 @@ namespace RedisInterface
             {
                 var endpoint = FabricRuntime.GetActivationContext().GetEndpoint(_endpointName);
 
-                string serverUrl = $"{endpoint.Protocol}://{FabricRuntime.GetNodeContext().IPAddressOrFQDN}:{endpoint.Port}";
+                //string serverUrl = $"{endpoint.Protocol}://{FabricRuntime.GetNodeContext().IPAddressOrFQDN}:{endpoint.Port}";
+
+                string baseUrl = $"{endpoint.Protocol}://{0}:{endpoint.Port}";
+                string serverUrl = string.Format(baseUrl, FabricRuntime.GetNodeContext().IPAddressOrFQDN);
 
                 _webHost = new WebHostBuilder().UseKestrel()
                                                .UseContentRoot(Directory.GetCurrentDirectory())
                                                .UseStartup<Startup>()
                                                .UseUrls(serverUrl)
+                                               //.UseUrls(string.Format(baseUrl, Environment.MachineName))
                                                .Build();
 
                 _webHost.Start();
